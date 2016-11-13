@@ -1,0 +1,36 @@
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand > img {
+  max-height: 100%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.navbar {
+  background-image: none;
+}
+
+.navbar-custom {
+  background-color: #B51508;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-custom .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover,
+  .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+@media all and (max-width: 768px) {
+  div#myNavbar.navbar-collapse.collapse.in {
+    background-color: #292929;
+  }
+}
